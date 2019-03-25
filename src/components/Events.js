@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Concert from './Concert'
+import EventContainer from './EventContainer'
 
 class Events extends Component {
     constructor() {
@@ -23,9 +25,8 @@ class Events extends Component {
     handleClick = () => {
         let event = this.state
 
-        this.props.handleCreateConcert(event)
+        this.props.handleClick(event)
     }
-    
 
     render() {
         return (

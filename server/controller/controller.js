@@ -24,7 +24,7 @@ let event = [
     },
     {
         id: id++,
-        location: 'wooow, weee, woooowweeee',
+        location: 'wooow, weee, wooooww',
         date: '4/4',
         name: 'ubbi dubbi',
         imageUrl: 'https://pbs.twimg.com/profile_images/1056281169883512833/VtE5x8Wa_400x400.jpg'

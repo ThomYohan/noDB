@@ -58,13 +58,16 @@ class Concert extends Component {
                 <button onClick={this.handleDeleteClick}>Delete Concert</button>
             </div>
         ) : (
-            <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', 
-                        alignItems: 'baseline', alignContent: 'flex-start'}}>
-                <img src={this.props.event.imageUrl} alt="" width="150"/>
-                <p>{this.props.event.location}</p>
-                <p>{this.props.event.date}</p>
-                <p>{this.props.event.name}</p>
-                <button onClick={this.handleEditClick}>Edit</button>
+            <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', 
+                        alignItems: 'center', alignContent: 'flex-start'}}>
+                <img src={this.props.event.imageUrl} alt="" height="150"width="150"/>
+                <h1 style={{display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', 
+                        alignItems: 'center', fontSize: 'small', border: '3px solid black', width: '150px', height: '145px'}}>
+                    <p>{this.props.event.location}</p>
+                    <p>{this.props.event.date}</p>
+                    <p>{this.props.event.name}</p>
+                    <button onClick={this.handleEditClick}>Edit</button>
+                </h1>
             </div>
         )}
         </div>

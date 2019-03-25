@@ -59,11 +59,13 @@ class EventContainer extends Component {
             <div>
                 <Events
                     concert={this.state.events}
-                    handleAddClick={this.createEvent}
+                    handleClick={this.createEvent}
                     // updateEvent={this.updateEvent}
                     // deleteEvent={this.deleteEvent}
                     />
+                <div>
                 {concertList}
+                </div>
             </div>
         )
     }

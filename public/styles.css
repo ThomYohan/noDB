@@ -1,0 +1,25 @@
+.App{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(243, 122, 142);
+    position: absolute;
+}
+.Top{
+    height: 100px;
+    color: white;
+}
+.Top1{
+    font-size: xx-large;
+    height: 100px;
+    font-style: oblique;
+}
+body{
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background: rgb(123, 42, 189);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
